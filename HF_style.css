@@ -1,0 +1,80 @@
+.left{
+    /* border: 3px solid black;  */
+
+    display: inline-block; /* this is to make view within the block */
+
+    position: absolute; /* to make position from top and left */
+    left: 30px;
+    top: 40px;
+}
+.left img{
+    width: 100px;
+}
+/* middle */
+.mid{
+    /* border:3px solid blue;  */
+
+    display: block; /* this is to make block  view with width */
+    width: 55%;
+
+    margin: 40px auto;  /* 40 from top and auto to take equal from both side which set it in center */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    padding: 10px 10px;
+    
+}
+.navbar li a{
+    margin: 0px;
+    padding: 7px;
+
+    border-radius: 30px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.mid input{
+    border: 3px solid blueviolet;
+    border-radius: 40px;
+
+    width: 260px;
+
+     margin: 30px;
+     padding: 10px;
+
+     font-size: 20px;
+}
+/* right */
+.right{
+    /* border: 3px solid yellow;  */
+
+    display: inline-block;
+
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
+.right h4{
+    display: inline-block; 
+    padding: 10px 10px;
+    
+}
+.right h4 a{
+    border: 3px solid blueviolet;
+    border-radius: 30px;
+
+    margin: 2px;
+    padding: 10px;
+
+    font-size: 20px;
+    text-decoration: none;
+}
+.right h4 a:hover{
+    background-color: greenyellow;
+}
